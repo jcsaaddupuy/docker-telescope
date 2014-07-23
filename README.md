@@ -21,7 +21,7 @@ docker run --rm -p 3000:3000 telescope
 making data persistent
 =======================
 
-Mount the local mondb folder in a custom location :
+Mount the local mongodb folder in a custom location :
 
 ```
 docker run --rm -p 3000:3000 -v /some/location:/src/.meteor/local/db telescope
