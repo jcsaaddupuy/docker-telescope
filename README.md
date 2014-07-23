@@ -1,7 +1,7 @@
 docker-telescope
 ================
 
-Telescope built from sources in a container based on the official [node image](https://registry.hub.docker.com/_/node/)
+[Telescope](https://github.com/TelescopeJS/Telescope) built from sources in a container based on the official [node image](https://registry.hub.docker.com/_/node/)
 
 
 build it
