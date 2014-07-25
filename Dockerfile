@@ -10,8 +10,7 @@ RUN apt-get install -y wget
 RUN curl https://install.meteor.com/ | sh
 RUN npm install -g meteorite
 
-RUN git clone https://github.com/TelescopeJS/Telescope.git /src
-RUN cd /src && mrt update
+RUN git clone https://github.com/TelescopeJS/Telescope.git /src && mrt update
 
 WORKDIR /src
 
