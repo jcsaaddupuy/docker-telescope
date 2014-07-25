@@ -24,5 +24,5 @@ making data persistent
 Mount the local mongodb folder in a custom location :
 
 ```
-docker run --rm -p 3000:3000 -v /some/location:/src/.meteor/local/db telescope
+docker run --rm -p 3000:3000 -v /some/location:/data telescope
 ```
